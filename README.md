@@ -1,4 +1,6 @@
-﻿# AppleStoreServerApi.Net
+﻿[![NuGet](https://img.shields.io/nuget/v/KonH.AppStoreServerApi.svg)](https://www.nuget.org/packages/KonH.AppStoreServerApi/)
+
+# AppleStoreServerApi.Net
 
 A .net 6.0 library to decode and verify Apple server to server in app purchase notification and request [App Store Server API](https://developer.apple.com/documentation/appstoreserverapi).
 

@@ -6,6 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>
+      KonH.AppStoreServerApi
+    </PackageId>
+    <Description>
+      Library to access some endpoints of Apple AppStore Server API (https://developer.apple.com/documentation/appstoreserverapi)
+      Fork of https://github.com/dragouf/AppStoreServerApi
+    </Description>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="BouncyCastle.NetCore" Version="2.2.1" />
     <PackageReference Include="JWT.Extensions.AspNetCore" Version="10.1.1" />
