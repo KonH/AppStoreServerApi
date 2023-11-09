@@ -176,7 +176,7 @@ namespace AppStoreServerApi
                 IssuedAt = now,
                 Claims = new Dictionary<string, object> {
                     { "bid", this.BundleId },
-                    { "nonce", Guid.NewGuid() }
+                    { "nonce", Guid.NewGuid().ToString() }
                 },
                 SigningCredentials = new SigningCredentials(eCDsaSecurityKey, SecurityAlgorithms.EcdsaSha256)
             });
